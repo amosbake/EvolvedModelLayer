@@ -1,0 +1,13 @@
+import org.threeten.bp.LocalDateTime;
+
+CREATE TABLE Battery (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  health INTEGER NOT NULL,
+  created_at TEXT AS LocalDateTime NOT NULL
+);
+
+insert_battery:
+INSERT INTO Battery (health, created_at) VALUES (?, ?);
+
+query_for_time:
+SELECT * FROM Battery WHERE created_at Between ? and ?;  
