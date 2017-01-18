@@ -11,8 +11,8 @@ import android.net.Uri;
 import java.util.Arrays;
 import java.util.HashSet;
 import mopel.io.BatteryModel;
-import mopel.io.evolvedmodellayer.Battery;
 import mopel.io.evolvedmodellayer.DbHelper;
+import mopel.io.evolvedmodellayer.model.Battery;
 
 public class BatteryContentProvider extends ContentProvider {
   public static final String CONTENT_TYPE = ContentResolver.CURSOR_DIR_BASE_TYPE + "/batteries";

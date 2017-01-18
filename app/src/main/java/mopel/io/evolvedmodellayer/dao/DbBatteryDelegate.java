@@ -1,7 +1,7 @@
 package mopel.io.evolvedmodellayer.dao;
 
 import java.util.List;
-import mopel.io.evolvedmodellayer.Battery;
+import mopel.io.evolvedmodellayer.model.Battery;
 import rx.Observable;
 
 /**

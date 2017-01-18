@@ -4,6 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import mopel.io.BatteryModel;
+import mopel.io.evolvedmodellayer.model.Battery;
 import org.threeten.bp.LocalDateTime;
 
 /**

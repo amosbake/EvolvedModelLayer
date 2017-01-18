@@ -1,4 +1,4 @@
-package mopel.io.evolvedmodellayer;
+package mopel.io.evolvedmodellayer.model;
 
 import android.database.Cursor;
 import android.os.Parcelable;
@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import com.google.auto.value.AutoValue;
 import mopel.io.BatteryModel;
+import mopel.io.evolvedmodellayer.ZoneDateTimeDelightAdapter;
 import mopel.io.evolvedmodellayer.dao.Db;
 import org.threeten.bp.LocalDateTime;
 import org.threeten.bp.format.DateTimeFormatter;
@@ -27,7 +28,7 @@ import rx.functions.Func1;
         }
       }, TIME_DELIGHT_ADAPTER);
 
-  static Func1<Cursor, Battery> MAPPER = new Func1<Cursor, Battery>() {
+  public static Func1<Cursor, Battery> MAPPER = new Func1<Cursor, Battery>() {
     @Override public Battery call(Cursor cursor) {
       long id = Db.getLong(cursor, Battery.ID);
       String createTime = Db.getString(cursor, Battery.CREATED_AT);

@@ -12,6 +12,7 @@ import com.squareup.sqlbrite.SqlBrite;
 import java.util.List;
 import java.util.Random;
 import mopel.io.evolvedmodellayer.dao.BatteryContentProvider;
+import mopel.io.evolvedmodellayer.model.Battery;
 import org.threeten.bp.ZonedDateTime;
 import org.threeten.bp.format.DateTimeFormatter;
 import rx.Subscriber;
