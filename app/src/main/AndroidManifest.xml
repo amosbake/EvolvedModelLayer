@@ -17,7 +17,7 @@
     </activity>
 
     <provider
-        android:name=".dao.BatteryContentProvider"
+        android:name=".model.BatteryContentProvider"
         android:authorities="io.amosbake.battery"
         android:enabled="true"
         android:exported="true">

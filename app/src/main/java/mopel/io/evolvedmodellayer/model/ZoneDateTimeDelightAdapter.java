@@ -1,4 +1,4 @@
-package mopel.io.evolvedmodellayer;
+package mopel.io.evolvedmodellayer.model;
 
 import android.support.annotation.NonNull;
 import com.squareup.sqldelight.ColumnAdapter;

@@ -1,4 +1,4 @@
-package mopel.io.evolvedmodellayer.dao;
+package mopel.io.evolvedmodellayer.model;
 
 /**
  * Author: mopel

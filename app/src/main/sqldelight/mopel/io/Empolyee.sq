@@ -1,0 +1,12 @@
+import java.lang.Integer;
+import mopel.io.evolvedmodellayer.model.Empolyee;
+import org.threeten.bp.LocalDateTime;
+
+CREATE TABLE empolyee (
+    _id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    age INTEGER AS Integer NOT NULL,
+    sex TEXT AS Empolyee.SEX NOT NULL,
+    created_at TEXT AS LocalDateTime NOT NULL
+);
+
